@@ -3,6 +3,15 @@
 <head>
  <href="style.css" type="text/css" link rel="stylesheet" />
 </head>
+<style>
+
+label, input {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 125px;
+}
+
+</style>
     <body>
     <form method="post" action="{{ url_for('divide_result') }}">
         <label for="number">Weight(lb):</label>
